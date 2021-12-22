@@ -19,6 +19,7 @@ export default function MemesComponent() {
       const ctx = canvas.current.getContext("2d");
       ctx.fillStyle = "black";
       ctx.fillRect(0, 0, 600, 600);
+      console.log(image);
       ctx.drawImage(image, 50, 40);
 
       ctx.font = "25px comic Sans MS";
