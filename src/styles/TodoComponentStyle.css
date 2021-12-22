@@ -1,0 +1,30 @@
+p {
+  color: greenyellow;
+}
+
+.input-search {
+  border: 1px solid lightblue;
+  border-radius: 3px;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.place {
+  border: 1px solid lightblue;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 3px;
+}
+.space {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  border: 1px solid lightblue;
+  border-radius: 3px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
