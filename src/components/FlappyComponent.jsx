@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import "./GameComponents/GameComponents.css";
+import "./FlappyComponents/FlappyComponents.css";
 import back from "./bird.png";
 export default function GameComponent() {
   const [imageBG, setImageBG] = useState(null);
@@ -15,6 +15,7 @@ export default function GameComponent() {
     backImage.onload = () => setImageBG(backImage);
     console.log(backImage);
   }, []);
+
   // useEffect(() => {
   //   const birdImage = new Image();
   //   birdImage.path = "./bird.png";

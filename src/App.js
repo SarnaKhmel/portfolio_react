@@ -7,8 +7,9 @@ import HomeComponent from "./components/HomeComponent";
 import CalculatorComponent from "./components/CalculatorComponent";
 import CVComponent from "./components/CvComponent";
 import WeatherComponent from "./components/WeatherComponent";
-import GameComponent from "./components/GameComponent";
+import FlappyComponent from "./components/FlappyComponent";
 import MemesComponent from "./components/MemesComponent";
+import SnakeComponents from "./components/SnakeComponents";
 
 function App() {
   return (
@@ -32,8 +33,11 @@ function App() {
         <NavLink to="/weather" activeClassName="selected">
           WEATHER
         </NavLink>
-        <NavLink to="/game" activeClassName="selected">
-          GAME
+        <NavLink to="/flappy" activeClassName="selected">
+          FLAPPY
+        </NavLink>
+        <NavLink to="/snake" activeClassName="selected">
+          SNAKE
         </NavLink>
       </nav>
       <Switch>
@@ -42,8 +46,9 @@ function App() {
         <Route path="/calculator" component={CalculatorComponent} />
         <Route path="/cv" component={CVComponent} />
         <Route path="/weather" component={WeatherComponent} />
-        <Route path="/game" component={GameComponent} />
+        <Route path="/flappy" component={FlappyComponent} />
         <Route path="/memes" component={MemesComponent} />
+        <Route path="/snake" component={SnakeComponents} />
       </Switch>
     </div>
   );
