@@ -6,6 +6,6 @@ export default function Food(props) {
     top: `${props.food[1]}%`,
   };
 
-  console.log(props);
-  return <div className="snake-food" style={style}></div>;
+  // console.log(props);
+  return <div className="snakeFood" style={style}></div>;
 }

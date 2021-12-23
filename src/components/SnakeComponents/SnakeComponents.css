@@ -1,4 +1,4 @@
-.game-area {
+.gameArea {
   position: relative;
   margin: 50px auto;
   width: 600px;
@@ -7,17 +7,17 @@
   border-radius: 5px;
 }
 
-.snake-dot {
+.snakeDot {
   position: absolute;
   width: 2%;
   height: 2%;
-  background-color: rgb(76, 99, 230);
+  background: linear-gradient(#fdf90c, #0655a0);
   border-radius: 50%;
   border: 1px solid white;
   z-index: 2;
 }
 
-.snake-food {
+.snakeFood {
   position: absolute;
   width: 2%;
   height: 2%;
